@@ -1,6 +1,6 @@
 export const runtime = "edge";
 
-const GAS_URL = "https://script.google.com/macros/s/AKfycbwA9ebn8SJTIzfagda-Yl6a566ZeatiBzOmcPoAyVcqozMOOw8Dp5AlGUVDcmzZ3eYQbg/exec";
+const GAS_URL = "https://script.google.com/macros/s/AKfycbz9d1VPKErEGuu_eSPwwgrkh5HkkHjItfjOjuWVZ_waiOjgKzOC3Rygjoz4C1iVMTPl/exec";
 
 export async function OPTIONS() {
   return new Response(null, {

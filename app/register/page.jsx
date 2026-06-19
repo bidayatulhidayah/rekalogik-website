@@ -11,7 +11,7 @@ const BG_TEXTURE = "/assets/bg-square-cream.jpg";
 // REKALOGIK STUDIO — WORKSHOP REGISTRATION FORM
 // ============================================================
 
-const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwA9ebn8SJTIzfagda-Yl6a566ZeatiBzOmcPoAyVcqozMOOw8Dp5AlGUVDcmzZ3eYQbg/exec";
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz9d1VPKErEGuu_eSPwwgrkh5HkkHjItfjOjuWVZ_waiOjgKzOC3Rygjoz4C1iVMTPl/exec";
 const DRAFT_KEY = "rls-reg-draft-v1";
 
 

@@ -34,13 +34,16 @@ export default function AboutPage() {
                 How RekaLogik Studio Began
               </h2>
               <p className="rl-subtext" style={{ marginBottom: 18 }}>
-                RekaLogik Studio was born out of a simple frustration: why is STEM education still mostly theory? We watched students memorise textbook circuits they never built, and code they never ran. That gap — between knowing and doing — is exactly what we set out to close.
+                RekaLogik Studio grew out of a university outreach programme — running STEM workshops for students around Gombak, including sessions at international schools, just to stay busy and do something that felt meaningful outside of lectures and office hours. Nothing dramatic. But those sessions taught us something real.
               </p>
               <p className="rl-subtext" style={{ marginBottom: 18 }}>
-                We started small: a handful of students, a table full of components, and the belief that every child has the curiosity to learn if given the right environment. Those early sessions confirmed what we suspected — hands-on learning works. Students who built things remembered them. Students who solved real problems kept coming back.
+                We noticed that teachers wanted to deliver engaging lessons on coding, electronics, and AI — but many didn't have the background or the time to prepare them confidently. And parents were looking for something worthwhile to fill their children's free time outside the classroom, beyond the usual tuition routine.
+              </p>
+              <p className="rl-subtext" style={{ marginBottom: 18 }}>
+                RekaLogik Studio is our answer to both. We're a mix of students and working engineers who genuinely enjoy keeping busy with something purposeful on the side. It's a great way to stay productive, meet new faces, and step outside our usual comfort zones — and if we can help a teacher feel more confident in front of her class, or give a child an afternoon they actually remember, that's more than enough reason to show up.
               </p>
               <p className="rl-subtext">
-                Today, RekaLogik Studio brings structured coding and electronics workshops to schools and communities across Malaysia — from block-based programming for primary school students to IoT hardware projects for secondary level. Our approach hasn't changed: learn by making.
+                Today, we run structured coding and electronics workshops across Malaysia — from block-based programming for primary school students to IoT hardware projects at secondary level. Our approach is simple: learn by making.
               </p>
             </div>
 

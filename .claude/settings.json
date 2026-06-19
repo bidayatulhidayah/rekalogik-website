@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "WebFetch(domain:faithevents.asia)",
+      "Bash(grep -E '#[0-9a-fA-F]{3,6}|rgb|font-family|font-size')"
     ]
   }
 }

@@ -96,6 +96,38 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── ABOUT TEASER ──────────────────────────────── */}
+      <section className="rl-section" style={{ background: C.cream }}>
+        <div style={{ maxWidth: 1200, margin: "0 auto" }}>
+          <div className="rl-2col">
+            <div>
+              <span className="rl-label">Our Story</span>
+              <h2 className="rl-heading" style={{ marginBottom: 24 }}>
+                Empowering Young Minds Through Technology
+              </h2>
+              <p className="rl-subtext" style={{ marginBottom: 16 }}>
+                RekaLogik Studio started as a university outreach side project — running STEM sessions for students around Gombak, just to stay productive and do something meaningful outside of everyday schedules. Those sessions revealed two real gaps: teachers who need to deliver STEM and AI lessons but don't have the knowledge or capacity, and parents looking to fill their child's free time with something genuinely useful outside the classroom.
+              </p>
+              <p className="rl-subtext" style={{ marginBottom: 36 }}>
+                We're students and working engineers who enjoy keeping busy with something purposeful. RekaLogik Studio is how we do that — hands-on coding and electronics workshops that help teachers teach and give students an afternoon they'll actually remember.
+              </p>
+              <Link href="/about" className="rl-btn-primary">
+                Learn More About Us
+              </Link>
+            </div>
+            <div style={{
+              background: C.bluePale, borderRadius: 24, minHeight: 360,
+              display: "flex", flexDirection: "column",
+              alignItems: "center", justifyContent: "center", gap: 12,
+              border: `1px solid ${C.blueLight}`,
+            }}>
+              <span style={{ fontSize: 40 }}>📸</span>
+              <p style={{ color: C.muted, fontSize: 13, fontWeight: 500 }}>About photo placeholder</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── STATS ─────────────────────────────────────── */}
       <section style={{ padding: "72px 24px", background: C.blueDark }}>
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
@@ -113,38 +145,6 @@ export default function HomePage() {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── ABOUT TEASER ──────────────────────────────── */}
-      <section className="rl-section" style={{ background: C.cream }}>
-        <div style={{ maxWidth: 1200, margin: "0 auto" }}>
-          <div className="rl-2col">
-            <div>
-              <span className="rl-label">Our Story</span>
-              <h2 className="rl-heading" style={{ marginBottom: 24 }}>
-                Empowering Young Minds Through Technology
-              </h2>
-              <p className="rl-subtext" style={{ marginBottom: 16 }}>
-                RekaLogik Studio was founded with a simple belief: every child deserves to understand the language of the future. We started as a small team of passionate educators and engineers who saw the gap in hands-on STEM education in Malaysia.
-              </p>
-              <p className="rl-subtext" style={{ marginBottom: 36 }}>
-                Today, we bring structured, fun, and accessible coding and electronics workshops to schools and communities across the country.
-              </p>
-              <Link href="/about" className="rl-btn-primary">
-                Learn More About Us
-              </Link>
-            </div>
-            <div style={{
-              background: C.bluePale, borderRadius: 24, minHeight: 360,
-              display: "flex", flexDirection: "column",
-              alignItems: "center", justifyContent: "center", gap: 12,
-              border: `1px solid ${C.blueLight}`,
-            }}>
-              <span style={{ fontSize: 40 }}>📸</span>
-              <p style={{ color: C.muted, fontSize: 13, fontWeight: 500 }}>About photo placeholder</p>
-            </div>
           </div>
         </div>
       </section>

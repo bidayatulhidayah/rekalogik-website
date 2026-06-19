@@ -38,7 +38,7 @@ export default function Navbar() {
       }}>
         <Link href="/" style={{ display: "flex", alignItems: "center" }}>
           <img
-            src={scrolled ? "/assets/dark%20blue%20logo%2C%20cream%20bg%20w%20name.png.png" : "/assets/cream%20logo%2C%20dark%20blue%20bg%20w%20name.png"}
+            src={scrolled ? "/assets/dark%20blue%20logo%2C%20cream%20bg%20w%20namev2.png" : "/assets/cream%20logo%2C%20dark%20blue%20bg%20w%20name.png"}
             alt="RekaLogik Studio"
             style={{ height: 44, transition: "opacity 0.3s" }}
           />

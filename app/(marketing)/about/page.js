@@ -71,7 +71,7 @@ export default function AboutPage() {
                 Our Mission
               </span>
               <h2 style={{
-                fontFamily: "'Bebas Neue', sans-serif", fontSize: 40,
+                fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: 32,
                 color: "#fff", lineHeight: 1.1, marginBottom: 20,
               }}>
                 Make STEM Education Truly Hands-On
@@ -92,7 +92,7 @@ export default function AboutPage() {
                 Our Vision
               </span>
               <h2 style={{
-                fontFamily: "'Bebas Neue', sans-serif", fontSize: 40,
+                fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: 32,
                 color: C.text, lineHeight: 1.1, marginBottom: 20,
               }}>
                 A Malaysia Where Every Child Can Build
@@ -169,7 +169,7 @@ export default function AboutPage() {
       }}>
         <div style={{ maxWidth: 600, margin: "0 auto" }}>
           <h2 style={{
-            fontFamily: "'Bebas Neue', sans-serif", fontSize: 48,
+            fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: 38,
             color: "#fff", lineHeight: 1.05, marginBottom: 16,
           }}>
             Ready to Join Us?

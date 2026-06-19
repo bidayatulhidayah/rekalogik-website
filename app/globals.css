@@ -10,7 +10,9 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Poppins', system-ui, sans-serif;
+  font-family: 'Lato', system-ui, sans-serif;
+  color: #06263F;
+  background: #fff;
 }
 
 a {
@@ -26,93 +28,115 @@ a {
 }
 
 /* ─── Section spacing ────────────────────────── */
-.rl-section       { padding: 100px 24px; }
-.rl-section-sm    { padding: 72px 24px; }
+.rl-section    { padding: 96px 24px; }
+.rl-section-sm { padding: 64px 24px; }
 
 /* ─── Grids ──────────────────────────────────── */
-.rl-2col          { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
-.rl-3col          { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
-.rl-4col          { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; }
-.rl-gallery-grid  { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-.rl-footer-grid   { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; }
+.rl-2col         { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+.rl-3col         { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.rl-4col         { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; }
+.rl-gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.rl-footer-grid  { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; }
 
 /* ─── Typography helpers ─────────────────────── */
 .rl-label {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   text-transform: uppercase;
-  color: #869B7E;
-  margin-bottom: 14px;
+  color: #3AC13A;
+  margin-bottom: 12px;
   display: block;
+  font-family: 'Lato', sans-serif;
 }
+
 .rl-heading {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 52px;
-  color: #2C1F1F;
-  line-height: 1.05;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  color: #06263F;
+  line-height: 1.1;
 }
+
 .rl-heading-lg {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 72px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 52px;
+  font-weight: 800;
   color: #fff;
-  line-height: 1.05;
+  line-height: 1.1;
 }
+
 .rl-subtext {
   font-size: 16px;
-  color: #7A7060;
+  color: #626262;
   line-height: 1.8;
+  font-family: 'Lato', sans-serif;
 }
 
 /* ─── Section header (centred) ───────────────── */
 .rl-section-header {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 56px;
 }
 .rl-section-header p {
-  max-width: 480px;
+  max-width: 500px;
   margin: 12px auto 0;
 }
 
 /* ─── Cards ──────────────────────────────────── */
 .rl-card {
   background: #fff;
-  border-radius: 20px;
+  border-radius: 12px;
   padding: 36px 32px;
   transition: transform 0.22s ease, box-shadow 0.22s ease;
 }
 .rl-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 16px 48px rgba(74, 111, 138, 0.14);
+  box-shadow: 0 16px 48px rgba(6, 38, 63, 0.12);
 }
 
 /* ─── Buttons ────────────────────────────────── */
 .rl-btn-primary {
   display: inline-block;
-  background: #7F2020;
+  background: #3AC13A;
   color: #fff;
   padding: 13px 32px;
-  border-radius: 999px;
-  font-weight: 600;
+  border-radius: 8px;
+  font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.3px;
+  font-family: 'Lato', sans-serif;
   transition: background 0.2s;
 }
-.rl-btn-primary:hover { background: #6B1818; }
+.rl-btn-primary:hover { background: #2DAA2D; }
 
 .rl-btn-outline {
   display: inline-block;
   background: transparent;
-  color: #7F2020;
+  color: #3AC13A;
   padding: 12px 30px;
-  border-radius: 999px;
-  font-weight: 600;
+  border-radius: 8px;
+  font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.3px;
-  border: 1.5px solid #7F2020;
+  font-family: 'Lato', sans-serif;
+  border: 2px solid #3AC13A;
   transition: background 0.2s, color 0.2s;
 }
-.rl-btn-outline:hover { background: #7F2020; color: #fff; }
+.rl-btn-outline:hover { background: #3AC13A; color: #fff; }
+
+.rl-btn-white {
+  display: inline-block;
+  background: #fff;
+  color: #06263F;
+  padding: 13px 32px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  transition: background 0.2s, color 0.2s;
+}
+.rl-btn-white:hover { background: #f0f0f0; }
 
 /* ─── Navbar ─────────────────────────────────── */
 .rl-nav-desktop { display: flex !important; }
@@ -123,31 +147,30 @@ a {
 
 /* ─── Hero title ─────────────────────────────── */
 .rl-hero-title {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 76px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 56px;
+  font-weight: 800;
   color: #fff;
-  line-height: 1.05;
+  line-height: 1.1;
   margin-bottom: 24px;
   max-width: 680px;
 }
 
 /* ─── Inner page hero ────────────────────────── */
 .rl-page-hero {
-  background: linear-gradient(135deg, #7F2020 0%, #869B7E 100%);
+  background: linear-gradient(135deg, #06263F 0%, #0a2034 100%);
   padding: 140px 24px 80px;
   text-align: center;
 }
 
 /* ─── FAQ accordion ──────────────────────────── */
-.rl-faq-item {
-  border-bottom: 1px solid #E8F1F8;
-}
+.rl-faq-item { border-bottom: 1px solid #e8e8e8; }
 .rl-faq-btn {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0;
+  padding: 22px 0;
   background: none;
   border: none;
   cursor: pointer;
@@ -159,38 +182,47 @@ a {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: #E8EBE0;
+  background: #EBF8EB;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  color: #7F2020;
+  color: #3AC13A;
   font-weight: 300;
   transition: transform 0.25s ease, background 0.2s;
 }
 
+/* ─── Divider line ───────────────────────────── */
+.rl-divider {
+  width: 48px;
+  height: 4px;
+  background: #3AC13A;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
 /* ─── Responsive ─────────────────────────────── */
 @media (max-width: 900px) {
-  .rl-nav-desktop { display: none !important; }
-  .rl-hamburger   { display: flex !important; }
-  .rl-2col        { grid-template-columns: 1fr !important; gap: 40px; }
-  .rl-3col        { grid-template-columns: 1fr !important; }
-  .rl-4col        { grid-template-columns: repeat(2, 1fr) !important; }
+  .rl-nav-desktop  { display: none !important; }
+  .rl-hamburger    { display: flex !important; }
+  .rl-2col         { grid-template-columns: 1fr !important; gap: 40px; }
+  .rl-3col         { grid-template-columns: 1fr !important; }
+  .rl-4col         { grid-template-columns: repeat(2, 1fr) !important; }
   .rl-gallery-grid { grid-template-columns: repeat(2, 1fr) !important; }
-  .rl-footer-grid { grid-template-columns: 1fr 1fr !important; gap: 32px; }
-  .rl-hero-title  { font-size: 52px !important; }
-  .rl-heading     { font-size: 40px; }
-  .rl-heading-lg  { font-size: 52px; }
-  .rl-section     { padding: 72px 24px !important; }
-  .rl-hero-btns   { flex-direction: column !important; align-items: flex-start; }
-  .rl-page-hero   { padding: 120px 24px 64px; }
+  .rl-footer-grid  { grid-template-columns: 1fr 1fr !important; gap: 32px; }
+  .rl-hero-title   { font-size: 38px !important; }
+  .rl-heading      { font-size: 30px; }
+  .rl-heading-lg   { font-size: 40px; }
+  .rl-section      { padding: 64px 24px !important; }
+  .rl-hero-btns    { flex-direction: column !important; align-items: flex-start; }
+  .rl-page-hero    { padding: 120px 24px 64px; }
 }
 
 @media (max-width: 540px) {
-  .rl-4col        { grid-template-columns: repeat(2, 1fr) !important; }
+  .rl-4col         { grid-template-columns: repeat(2, 1fr) !important; }
   .rl-gallery-grid { grid-template-columns: 1fr !important; }
-  .rl-footer-grid { grid-template-columns: 1fr !important; }
-  .rl-section     { padding: 56px 20px !important; }
-  .rl-hero-title  { font-size: 44px !important; }
-  .rl-heading     { font-size: 34px; }
+  .rl-footer-grid  { grid-template-columns: 1fr !important; }
+  .rl-section      { padding: 48px 20px !important; }
+  .rl-hero-title   { font-size: 32px !important; }
+  .rl-heading      { font-size: 26px; }
 }

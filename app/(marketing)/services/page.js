@@ -65,7 +65,7 @@ export default function ServicesPage() {
                     {icon}
                   </div>
                   <h2 style={{
-                    fontFamily: "'Bebas Neue', sans-serif", fontSize: 40,
+                    fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: 32,
                     color: C.text, lineHeight: 1.05, marginBottom: 16,
                   }}>
                     {title}
@@ -128,7 +128,7 @@ export default function ServicesPage() {
             {PROCESS.map(({ step, title, desc }) => (
               <div key={step} style={{ position: "relative" }}>
                 <div style={{
-                  fontFamily: "'Bebas Neue', sans-serif", fontSize: 72,
+                  fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: 52,
                   color: C.blueLight, lineHeight: 1, marginBottom: 12,
                 }}>
                   {step}
@@ -149,7 +149,7 @@ export default function ServicesPage() {
         <div style={{ maxWidth: 620, margin: "0 auto" }}>
           <span className="rl-label" style={{ color: C.blueLight }}>Let's Work Together</span>
           <h2 style={{
-            fontFamily: "'Bebas Neue', sans-serif", fontSize: 52,
+            fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: 42,
             color: "#fff", lineHeight: 1.05, marginBottom: 16,
           }}>
             Bring RekaLogik Studio to Your School

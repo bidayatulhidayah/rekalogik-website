@@ -41,7 +41,7 @@ export default function WorkshopsPage() {
                     <p style={{ color: C.blue, fontSize: 11, fontWeight: 700, letterSpacing: 3, textTransform: "uppercase", marginBottom: 8 }}>
                       {level}
                     </p>
-                    <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 40, color: C.text, lineHeight: 1.05, marginBottom: 16 }}>
+                    <h2 style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: 32, color: C.text, lineHeight: 1.1, marginBottom: 16 }}>
                       {name}
                     </h2>
                     <p className="rl-subtext" style={{ fontSize: 15, marginBottom: 28 }}>
@@ -114,7 +114,7 @@ export default function WorkshopsPage() {
           boxShadow: "0 4px 24px rgba(74,111,138,0.08)",
         }}>
           <span style={{ fontSize: 36, display: "block", marginBottom: 16 }}>🎁</span>
-          <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 36, color: C.text, lineHeight: 1.05, marginBottom: 12 }}>
+          <h3 style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: 28, color: C.text, lineHeight: 1.1, marginBottom: 12 }}>
             Pair Discount Available
           </h3>
           <p className="rl-subtext" style={{ marginBottom: 28 }}>
@@ -141,7 +141,7 @@ export default function WorkshopsPage() {
             ].map(({ step, title, desc }) => (
               <div key={step} style={{ textAlign: "center" }}>
                 <div style={{
-                  fontFamily: "'Bebas Neue', sans-serif", fontSize: 64,
+                  fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: 48,
                   color: C.blueLight, lineHeight: 1, marginBottom: 16,
                 }}>
                   {step}

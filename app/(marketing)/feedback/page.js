@@ -32,7 +32,7 @@ export default function FeedbackPage() {
             {RATINGS.map(({ label, pct }) => (
               <div key={label} style={{ textAlign: "center" }}>
                 <div style={{
-                  fontFamily: "'Bebas Neue', sans-serif", fontSize: 56,
+                  fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: 44,
                   color: "#fff", lineHeight: 1,
                 }}>
                   {pct}%
@@ -107,7 +107,7 @@ export default function FeedbackPage() {
           }}>
             <span style={{ fontSize: 36, display: "block", marginBottom: 16 }}>✍️</span>
             <h3 style={{
-              fontFamily: "'Bebas Neue', sans-serif", fontSize: 36,
+              fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: 28,
               color: C.text, lineHeight: 1.05, marginBottom: 12,
             }}>
               Attended One of Our Workshops?
@@ -129,7 +129,7 @@ export default function FeedbackPage() {
       }}>
         <div style={{ maxWidth: 600, margin: "0 auto" }}>
           <h2 style={{
-            fontFamily: "'Bebas Neue', sans-serif", fontSize: 48,
+            fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: 38,
             color: "#fff", lineHeight: 1.05, marginBottom: 16,
           }}>
             Join Hundreds of Happy Students

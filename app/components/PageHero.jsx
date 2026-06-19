@@ -4,7 +4,7 @@ import { C } from "../lib/constants";
 export default function PageHero({ label, title, subtitle, breadcrumb }) {
   return (
     <section className="rl-page-hero" style={{
-      background: `linear-gradient(135deg, ${C.blueDark} 0%, ${C.blue} 100%)`,
+      background: `linear-gradient(135deg, ${C.blueDark} 0%, #0a2034 100%)`,
       position: "relative", overflow: "hidden",
     }}>
       {/* Texture overlay */}
@@ -36,8 +36,8 @@ export default function PageHero({ label, title, subtitle, breadcrumb }) {
         {label && <span className="rl-label" style={{ color: C.blueLight }}>{label}</span>}
 
         <h1 style={{
-          fontFamily: "'Bebas Neue', sans-serif",
-          fontSize: 64, color: "#fff", lineHeight: 1.05, marginBottom: subtitle ? 16 : 0,
+          fontFamily: "'Montserrat', sans-serif", fontWeight: 800,
+          fontSize: 48, color: "#fff", lineHeight: 1.1, marginBottom: subtitle ? 16 : 0,
         }}>
           {title}
         </h1>

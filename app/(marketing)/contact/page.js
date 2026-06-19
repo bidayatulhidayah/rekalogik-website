@@ -120,7 +120,7 @@ export default function ContactPage() {
               background: C.cream, borderRadius: 24, padding: "40px",
               border: `1px solid ${C.blueLight}`,
             }}>
-              <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 32, color: C.text, lineHeight: 1.05, marginBottom: 8 }}>
+              <h3 style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: 26, color: C.text, lineHeight: 1.1, marginBottom: 8 }}>
                 Send an Enquiry
               </h3>
               <p className="rl-subtext" style={{ fontSize: 14, marginBottom: 28 }}>

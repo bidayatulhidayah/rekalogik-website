@@ -94,7 +94,7 @@ export default function GalleryPage() {
           boxShadow: "0 4px 24px rgba(74,111,138,0.08)",
         }}>
           <h3 style={{
-            fontFamily: "'Bebas Neue', sans-serif", fontSize: 36,
+            fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: 28,
             color: C.text, lineHeight: 1.05, marginBottom: 12,
           }}>
             Want to Be Part of the Next Event?

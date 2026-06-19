@@ -26,7 +26,7 @@ export default function Navbar() {
   return (
     <nav style={{
       position: "fixed", top: 0, left: 0, right: 0, zIndex: 100,
-      background: scrolled ? "rgba(246,243,235,0.97)" : "transparent",
+      background: scrolled ? "rgba(255,255,255,0.97)" : "transparent",
       boxShadow: scrolled ? "0 2px 20px rgba(0,0,0,0.08)" : "none",
       backdropFilter: scrolled ? "blur(10px)" : "none",
       transition: "background 0.3s, box-shadow 0.3s",
@@ -56,9 +56,10 @@ export default function Navbar() {
             </Link>
           ))}
           <Link href="/register" style={{
-            background: C.blueDark, color: "#fff",
-            padding: "10px 26px", borderRadius: 999,
-            fontSize: 14, fontWeight: 600, letterSpacing: 0.3,
+            background: C.blue, color: "#fff",
+            padding: "10px 26px", borderRadius: 8,
+            fontSize: 14, fontWeight: 700, letterSpacing: 0.3,
+            fontFamily: "Lato, sans-serif",
           }}>
             Register
           </Link>
@@ -86,7 +87,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       <div style={{
-        background: "#F6F3EB",
+        background: "#fff",
         maxHeight: menuOpen ? 480 : 0,
         overflow: "hidden",
         transition: "max-height 0.35s ease",
@@ -102,9 +103,10 @@ export default function Navbar() {
             </Link>
           ))}
           <Link href="/register" onClick={() => setMenuOpen(false)} style={{
-            display: "block", background: C.blueDark, color: "#fff",
-            textAlign: "center", padding: "13px", borderRadius: 10,
-            marginTop: 16, fontWeight: 600, fontSize: 15,
+            display: "block", background: C.blue, color: "#fff",
+            textAlign: "center", padding: "13px", borderRadius: 8,
+            marginTop: 16, fontWeight: 700, fontSize: 15,
+            fontFamily: "Lato, sans-serif",
           }}>
             Register
           </Link>

@@ -1,11 +1,11 @@
 export const C = {
-  blue: "#869B7E",      // sage green — mid accent
-  blueDark: "#7F2020",  // crimson — primary
-  blueLight: "#C9CAAC", // sage khaki — light accent
-  bluePale: "#E8EBE0",  // very light sage — subtle bg
-  cream: "#F6F3EB",     // warm cream — page bg
-  text: "#2C1F1F",      // dark warm brown — body text
-  muted: "#7A7060",     // warm olive-grey — secondary text
+  blue: "#3AC13A",      // green — primary CTA / accent
+  blueDark: "#06263F",  // dark navy — hero, stats, footer bg
+  blueLight: "#6BDC6B", // light green — hover states
+  bluePale: "#EBF8EB",  // very light green — subtle card/section bg
+  cream: "#F8F8F8",     // off-white — alternating section bg
+  text: "#06263F",      // dark navy — all body text
+  muted: "#626262",     // medium grey — secondary/muted text
 };
 
 export const STATS = [
@@ -21,7 +21,7 @@ export const WORKSHOPS = [
     slug: "rekabit-basic",
     level: "Darjah 4 – 6",
     icon: "🧩",
-    bg: "#F6F3EB",
+    bg: "#F8F8F8",
     desc: "Introduction to block-based coding, logical thinking, and computational problem-solving. No prior experience needed.",
     fullDesc:
       "REKABIT Basic is designed for students in Darjah 4 to 6 who are completely new to coding. Through fun, guided projects using block-based programming, students learn the core concepts of computational thinking — sequencing, loops, conditions, and events — without writing a single line of text code. By the end of the workshop, every student will have built their own working project to show off.",
@@ -41,7 +41,7 @@ export const WORKSHOPS = [
     slug: "rekabit-advanced",
     level: "Darjah 4 – 6",
     icon: "💻",
-    bg: "#E8EBE0",
+    bg: "#EBF8EB",
     desc: "Step up to text-based coding and build more complex logic projects. Requires REKABIT Basic completion.",
     fullDesc:
       "Building on what students learned in REKABIT Basic, this advanced track transitions them from block-based coding to actual text-based programming. Students tackle more complex projects, learn to read and write code, and develop a deeper understanding of algorithms. Prerequisite: REKABIT Basic.",
@@ -61,7 +61,7 @@ export const WORKSHOPS = [
     slug: "esp32-basic",
     level: "Tingkatan 1 – 3",
     icon: "⚡",
-    bg: "#EDE8DF",
+    bg: "#F8F8F8",
     desc: "Hands-on electronics and IoT programming with the ESP32 microcontroller. Build real hardware projects.",
     fullDesc:
       "ESP32 Basic bridges the gap between software and the physical world. Secondary school students learn electronics fundamentals, circuit assembly, and how to program the ESP32 microcontroller to interact with sensors, LEDs, and other hardware components. Students leave with a physical project they built themselves — a real taste of the Internet of Things.",

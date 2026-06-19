@@ -13,7 +13,7 @@ export default function HomePage() {
       {/* ── HERO ──────────────────────────────────────── */}
       <section style={{
         position: "relative", minHeight: "100vh",
-        background: `linear-gradient(135deg, #5A1515 0%, ${C.blueDark} 55%, #9B3333 100%)`,
+        background: `linear-gradient(135deg, ${C.blueDark} 0%, #0a2034 100%)`,
         display: "flex", alignItems: "center", overflow: "hidden",
       }}>
         <div style={{
@@ -39,7 +39,7 @@ export default function HomePage() {
               padding: "6px 16px", marginBottom: 24,
               border: "1px solid rgba(255,255,255,0.2)",
             }}>
-              <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#C9CAAC", display: "inline-block" }} />
+              <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#3AC13A", display: "inline-block" }} />
               <span style={{ color: "#fff", fontSize: 13, fontWeight: 500, letterSpacing: 1 }}>
                 Now enrolling — 2025 season
               </span>
@@ -103,7 +103,7 @@ export default function HomePage() {
             {STATS.map(({ num, label }) => (
               <div key={label}>
                 <div style={{
-                  fontFamily: "'Bebas Neue', sans-serif", fontSize: 60,
+                  fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: 52,
                   color: "#fff", lineHeight: 1,
                 }}>
                   {num}
@@ -308,7 +308,7 @@ export default function HomePage() {
         <div style={{ maxWidth: 680, margin: "0 auto", textAlign: "center" }}>
           <span className="rl-label" style={{ color: C.blueLight }}>Get In Touch</span>
           <h2 style={{
-            fontFamily: "'Bebas Neue', sans-serif", fontSize: 56,
+            fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: 44,
             color: "#fff", lineHeight: 1.05, marginBottom: 16,
           }}>
             Ready to Start?

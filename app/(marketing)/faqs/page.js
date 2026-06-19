@@ -35,7 +35,7 @@ export default function FaqsPage() {
           boxShadow: "0 4px 24px rgba(74,111,138,0.08)",
         }}>
           <span style={{ fontSize: 36, display: "block", marginBottom: 16 }}>💬</span>
-          <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 36, color: C.text, lineHeight: 1.05, marginBottom: 12 }}>
+          <h3 style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: 28, color: C.text, lineHeight: 1.1, marginBottom: 12 }}>
             Still Have Questions?
           </h3>
           <p className="rl-subtext" style={{ marginBottom: 32 }}>

@@ -44,7 +44,7 @@ a {
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #C45E15;
+  color: #A02050;
   margin-bottom: 12px;
   display: block;
   font-family: 'Lato', sans-serif;
@@ -98,7 +98,7 @@ a {
 /* ─── Buttons ────────────────────────────────── */
 .rl-btn-primary {
   display: inline-block;
-  background: #F2792E;
+  background: #D6336C;
   color: #fff;
   padding: 13px 32px;
   border-radius: 8px;
@@ -108,22 +108,22 @@ a {
   font-family: 'Lato', sans-serif;
   transition: background 0.2s;
 }
-.rl-btn-primary:hover { background: #D4661A; }
+.rl-btn-primary:hover { background: #B82A5A; }
 
 .rl-btn-outline {
   display: inline-block;
   background: transparent;
-  color: #C45E15;
+  color: #A02050;
   padding: 12px 30px;
   border-radius: 8px;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.3px;
   font-family: 'Lato', sans-serif;
-  border: 2px solid #F2792E;
+  border: 2px solid #D6336C;
   transition: background 0.2s, color 0.2s;
 }
-.rl-btn-outline:hover { background: #F2792E; color: #fff; }
+.rl-btn-outline:hover { background: #D6336C; color: #fff; }
 
 .rl-btn-white {
   display: inline-block;
@@ -182,12 +182,12 @@ a {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: #FEF0E8;
+  background: #FCE4EF;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  color: #C45E15;
+  color: #A02050;
   font-weight: 300;
   transition: transform 0.25s ease, background 0.2s;
 }
@@ -196,7 +196,7 @@ a {
 .rl-divider {
   width: 48px;
   height: 4px;
-  background: #F2792E;
+  background: #D6336C;
   border-radius: 2px;
   margin-bottom: 20px;
 }

@@ -98,7 +98,7 @@ a {
 /* ─── Buttons ────────────────────────────────── */
 .rl-btn-primary {
   display: inline-block;
-  background: #FFEF5F;
+  background: #F2C230;
   color: #06263F;
   padding: 13px 32px;
   border-radius: 8px;
@@ -108,7 +108,7 @@ a {
   font-family: 'Lato', sans-serif;
   transition: background 0.2s;
 }
-.rl-btn-primary:hover { background: #FFE800; }
+.rl-btn-primary:hover { background: #E0B020; }
 
 .rl-btn-outline {
   display: inline-block;
@@ -120,10 +120,10 @@ a {
   font-size: 14px;
   letter-spacing: 0.3px;
   font-family: 'Lato', sans-serif;
-  border: 2px solid #FFEF5F;
+  border: 2px solid #F2C230;
   transition: background 0.2s, color 0.2s;
 }
-.rl-btn-outline:hover { background: #FFEF5F; color: #06263F; }
+.rl-btn-outline:hover { background: #F2C230; color: #06263F; }
 
 .rl-btn-white {
   display: inline-block;
@@ -182,7 +182,7 @@ a {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: #FEFCE8;
+  background: #FDF6DC;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -196,7 +196,7 @@ a {
 .rl-divider {
   width: 48px;
   height: 4px;
-  background: #FFEF5F;
+  background: #F2C230;
   border-radius: 2px;
   margin-bottom: 20px;
 }

@@ -42,14 +42,14 @@ a {
   font-weight: 700;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: #6B8EAE;
+  color: #869B7E;
   margin-bottom: 14px;
   display: block;
 }
 .rl-heading {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 52px;
-  color: #2C3E50;
+  color: #2C1F1F;
   line-height: 1.05;
 }
 .rl-heading-lg {
@@ -60,7 +60,7 @@ a {
 }
 .rl-subtext {
   font-size: 16px;
-  color: #7A8E9A;
+  color: #7A7060;
   line-height: 1.8;
 }
 
@@ -89,7 +89,7 @@ a {
 /* ─── Buttons ────────────────────────────────── */
 .rl-btn-primary {
   display: inline-block;
-  background: #4A6F8A;
+  background: #7F2020;
   color: #fff;
   padding: 13px 32px;
   border-radius: 999px;
@@ -98,21 +98,21 @@ a {
   letter-spacing: 0.3px;
   transition: background 0.2s;
 }
-.rl-btn-primary:hover { background: #3d5e77; }
+.rl-btn-primary:hover { background: #6B1818; }
 
 .rl-btn-outline {
   display: inline-block;
   background: transparent;
-  color: #4A6F8A;
+  color: #7F2020;
   padding: 12px 30px;
   border-radius: 999px;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 0.3px;
-  border: 1.5px solid #4A6F8A;
+  border: 1.5px solid #7F2020;
   transition: background 0.2s, color 0.2s;
 }
-.rl-btn-outline:hover { background: #4A6F8A; color: #fff; }
+.rl-btn-outline:hover { background: #7F2020; color: #fff; }
 
 /* ─── Navbar ─────────────────────────────────── */
 .rl-nav-desktop { display: flex !important; }
@@ -133,7 +133,7 @@ a {
 
 /* ─── Inner page hero ────────────────────────── */
 .rl-page-hero {
-  background: linear-gradient(135deg, #4A6F8A 0%, #6B8EAE 100%);
+  background: linear-gradient(135deg, #7F2020 0%, #869B7E 100%);
   padding: 140px 24px 80px;
   text-align: center;
 }
@@ -159,12 +159,12 @@ a {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: #E8F1F8;
+  background: #E8EBE0;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  color: #4A6F8A;
+  color: #7F2020;
   font-weight: 300;
   transition: transform 0.25s ease, background 0.2s;
 }

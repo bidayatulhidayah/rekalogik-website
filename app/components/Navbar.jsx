@@ -26,7 +26,7 @@ export default function Navbar() {
   return (
     <nav style={{
       position: "fixed", top: 0, left: 0, right: 0, zIndex: 100,
-      background: scrolled ? "rgba(255,255,255,0.97)" : "transparent",
+      background: scrolled ? "rgba(246,243,235,0.97)" : "transparent",
       boxShadow: scrolled ? "0 2px 20px rgba(0,0,0,0.08)" : "none",
       backdropFilter: scrolled ? "blur(10px)" : "none",
       transition: "background 0.3s, box-shadow 0.3s",
@@ -38,9 +38,9 @@ export default function Navbar() {
       }}>
         <Link href="/" style={{ display: "flex", alignItems: "center" }}>
           <img
-            src="/assets/logo_steelBlue_transparents.png"
+            src={scrolled ? "/assets/logo_steelBlue_transparents.png" : "/assets/logo_cream_transparents.png"}
             alt="RekaLogik Studio"
-            style={{ height: 44 }}
+            style={{ height: 44, transition: "opacity 0.3s" }}
           />
         </Link>
 
@@ -86,7 +86,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       <div style={{
-        background: "#fff",
+        background: "#F6F3EB",
         maxHeight: menuOpen ? 480 : 0,
         overflow: "hidden",
         transition: "max-height 0.35s ease",

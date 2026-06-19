@@ -13,7 +13,7 @@ export default function HomePage() {
       {/* ── HERO ──────────────────────────────────────── */}
       <section style={{
         position: "relative", minHeight: "100vh",
-        background: `linear-gradient(135deg, ${C.blueDark} 0%, ${C.blue} 55%, #7BAAC8 100%)`,
+        background: `linear-gradient(135deg, #5A1515 0%, ${C.blueDark} 55%, #9B3333 100%)`,
         display: "flex", alignItems: "center", overflow: "hidden",
       }}>
         <div style={{
@@ -39,7 +39,7 @@ export default function HomePage() {
               padding: "6px 16px", marginBottom: 24,
               border: "1px solid rgba(255,255,255,0.2)",
             }}>
-              <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#7EFFA0", display: "inline-block" }} />
+              <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#C9CAAC", display: "inline-block" }} />
               <span style={{ color: "#fff", fontSize: 13, fontWeight: 500, letterSpacing: 1 }}>
                 Now enrolling — 2025 season
               </span>

@@ -39,7 +39,7 @@ export default function HomePage() {
               padding: "6px 16px", marginBottom: 24,
               border: "1px solid rgba(255,255,255,0.2)",
             }}>
-              <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#F2792E", display: "inline-block" }} />
+              <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#FFB400", display: "inline-block" }} />
               <span style={{ color: "#fff", fontSize: 13, fontWeight: 500, letterSpacing: 1 }}>
                 Now enrolling — 2025 season
               </span>

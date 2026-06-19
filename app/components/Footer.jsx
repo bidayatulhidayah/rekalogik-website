@@ -29,7 +29,7 @@ export default function Footer() {
           {/* Brand column */}
           <div>
             <img
-              src="/assets/logo_cream_transparents.png"
+              src="/assets/cream%20logo%2C%20dark%20blue%20bg%20w%20name.png"
               alt="RekaLogik Studio"
               style={{ height: 52, marginBottom: 20 }}
             />

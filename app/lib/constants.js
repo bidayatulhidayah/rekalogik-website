@@ -1,8 +1,8 @@
 export const C = {
-  blue: "#3AC13A",      // green — primary CTA / accent
+  blue: "#FFEF5F",      // yellow — primary CTA / accent
   blueDark: "#06263F",  // dark navy — hero, stats, footer bg
-  blueLight: "#6BDC6B", // light green — hover states
-  bluePale: "#EBF8EB",  // very light green — subtle card/section bg
+  blueLight: "#FFF49A", // light yellow — hover states / subtle tints
+  bluePale: "#FEFCE8",  // very pale yellow — card/section bg
   cream: "#F8F8F8",     // off-white — alternating section bg
   text: "#06263F",      // dark navy — all body text
   muted: "#626262",     // medium grey — secondary/muted text
@@ -41,7 +41,7 @@ export const WORKSHOPS = [
     slug: "rekabit-advanced",
     level: "Darjah 4 – 6",
     icon: "💻",
-    bg: "#EBF8EB",
+    bg: "#FEFCE8",
     desc: "Step up to text-based coding and build more complex logic projects. Requires REKABIT Basic completion.",
     fullDesc:
       "Building on what students learned in REKABIT Basic, this advanced track transitions them from block-based coding to actual text-based programming. Students tackle more complex projects, learn to read and write code, and develop a deeper understanding of algorithms. Prerequisite: REKABIT Basic.",

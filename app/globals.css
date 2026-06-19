@@ -44,7 +44,7 @@ a {
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #3AC13A;
+  color: #B89B00;
   margin-bottom: 12px;
   display: block;
   font-family: 'Lato', sans-serif;
@@ -98,8 +98,8 @@ a {
 /* ─── Buttons ────────────────────────────────── */
 .rl-btn-primary {
   display: inline-block;
-  background: #3AC13A;
-  color: #fff;
+  background: #FFEF5F;
+  color: #06263F;
   padding: 13px 32px;
   border-radius: 8px;
   font-weight: 700;
@@ -108,22 +108,22 @@ a {
   font-family: 'Lato', sans-serif;
   transition: background 0.2s;
 }
-.rl-btn-primary:hover { background: #2DAA2D; }
+.rl-btn-primary:hover { background: #FFE800; }
 
 .rl-btn-outline {
   display: inline-block;
   background: transparent;
-  color: #3AC13A;
+  color: #B89B00;
   padding: 12px 30px;
   border-radius: 8px;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.3px;
   font-family: 'Lato', sans-serif;
-  border: 2px solid #3AC13A;
+  border: 2px solid #FFEF5F;
   transition: background 0.2s, color 0.2s;
 }
-.rl-btn-outline:hover { background: #3AC13A; color: #fff; }
+.rl-btn-outline:hover { background: #FFEF5F; color: #06263F; }
 
 .rl-btn-white {
   display: inline-block;
@@ -182,12 +182,12 @@ a {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: #EBF8EB;
+  background: #FEFCE8;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  color: #3AC13A;
+  color: #B89B00;
   font-weight: 300;
   transition: transform 0.25s ease, background 0.2s;
 }
@@ -196,7 +196,7 @@ a {
 .rl-divider {
   width: 48px;
   height: 4px;
-  background: #3AC13A;
+  background: #FFEF5F;
   border-radius: 2px;
   margin-bottom: 20px;
 }
